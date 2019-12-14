@@ -1,6 +1,6 @@
 class Shows < ActiveRecord::Migration[5.2]
   def change
-    create :shows dp |t|
+    create :shows do |t|
       t.string :name
       t.string :day 
       t.string :network 
