@@ -8,4 +8,6 @@ class Show < ActiveRecord::Base
     self.all(:conditions => "rating = 10")
   end
   
+  
+  
 end
