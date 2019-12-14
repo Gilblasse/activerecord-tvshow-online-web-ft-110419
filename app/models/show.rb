@@ -13,7 +13,7 @@ class Show < ActiveRecord::Base
   end
   
   def self.lowest_rating
-    self.order(rating: :ASC).limit(2)
+    self.order(rating: :ASC).first
   end
   
 end
