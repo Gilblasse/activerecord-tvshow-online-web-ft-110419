@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2019_12_14_042436) do
     t.string "season"
     t.string "network"
     t.integer "rating"
+    t.string "bat"
   end
 
 end
